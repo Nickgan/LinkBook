@@ -20,8 +20,7 @@
 
     <modules>
         <module>registry</module>
-        <module>login</module>
-        <module>login-front</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -39,14 +38,6 @@
 
 
     <dependencies>
-        <dependency>
-            <groupId>cn.linkbook</groupId>
-            <artifactId>common</artifactId>
-            <version>${cn.linkbook.common}</version>
-            <scope>system</scope>
-            <systemPath>c:/Users/WQ/.m2/repository/common-1.0-SNAPSHOT.jar</systemPath>
-        </dependency>
-
         <!-- spring boot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
