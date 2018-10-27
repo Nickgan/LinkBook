@@ -1,0 +1,16 @@
+server:
+port: 8082
+#ok请求
+okService:
+url: http://localhost:8082/ok
+
+# 页面templates配置
+spring:
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .html
+  thymeleaf:
+      encoding: UTF-8
+      mode: HTML5
+      cache: false
