@@ -2,44 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a94894f-8ea2-484d-bbeb-de60aa70e6c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/registry/src/main/resources/application.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_linkbook_common_unknown.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/registry/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/registry/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/linkbook/registry/RegistryApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/linkbook/registry/RegistryApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/linkbook/registry/controller/PageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/linkbook/registry/dal/inter/TestInfoDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/linkbook/registry/dal/object/BaseDO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/linkbook/registry/dal/object/TestInfoDO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/linkbook/registry/po/UserPO.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-front/target/classes/cn/linkbook/loginfront/LoginFrontApplication.class" afterPath="$PROJECT_DIR$/login-front/target/classes/cn/linkbook/loginfront/LoginFrontApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-front/target/classes/cn/linkbook/loginfront/base/Result.class" afterPath="$PROJECT_DIR$/login-front/target/classes/cn/linkbook/loginfront/base/Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-front/target/classes/cn/linkbook/loginfront/constants/ReturnCodeEnum.class" afterPath="$PROJECT_DIR$/login-front/target/classes/cn/linkbook/loginfront/constants/ReturnCodeEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/target/classes/cn/book/login/LoginApplication.class" afterPath="$PROJECT_DIR$/login/target/classes/cn/book/login/LoginApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/target/classes/cn/book/login/base/Result.class" afterPath="$PROJECT_DIR$/login/target/classes/cn/book/login/base/Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/target/classes/cn/book/login/constants/ReturnCodeEnum.class" afterPath="$PROJECT_DIR$/login/target/classes/cn/book/login/constants/ReturnCodeEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/cn/linkboo/common/mycenterInfo/Company.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/cn/linkboo/common/mycenterInfo/School.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/cn/linkboo/common/restful/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/cn/linkboo/common/restful/ReturnCodeEnum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.iml" afterPath="$PROJECT_DIR$/book.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-front/login-front.iml" afterPath="$PROJECT_DIR$/login-front/login-front.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/login.iml" afterPath="$PROJECT_DIR$/login/login.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/pom.xml" afterPath="$PROJECT_DIR$/registry/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/registry.iml" afterPath="$PROJECT_DIR$/registry/registry.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/src/main/java/cn/linkbook/registry/RegistryApplication.java" afterPath="$PROJECT_DIR$/registry/src/main/java/cn/linkbook/registry/RegistryApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/src/main/java/cn/linkbook/registry/controller/PageController.java" afterPath="$PROJECT_DIR$/registry/src/main/java/cn/linkbook/registry/controller/PageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/src/main/resources/config/mapping/test.xml" afterPath="$PROJECT_DIR$/registry/src/main/resources/config/mapping/test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/src/main/resources/spring/linkbook-dal-config.xml" afterPath="$PROJECT_DIR$/registry/src/main/resources/spring/linkbook-dal-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/target/classes/config/mapping/test.xml" afterPath="$PROJECT_DIR$/registry/target/classes/config/mapping/test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry/target/classes/spring/linkbook-dal-config.xml" afterPath="$PROJECT_DIR$/registry/target/classes/spring/linkbook-dal-config.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/registry/src/main/java/cn/linkbook/registry/po/UserPO.java" afterPath="$PROJECT_DIR$/common/src/main/java/cn/linkboo/common/mycenterInfo/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/registry/src/test/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/registry/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -97,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/registry/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -106,8 +77,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="146" column="21" lean-forward="false" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+            <state relative-caret-position="-513">
+              <caret line="121" column="21" lean-forward="false" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -156,6 +127,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring-boot-starter-web</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1052,7 +1028,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540651715642</updated>
-      <workItem from="1540651724851" duration="5135000" />
+      <workItem from="1540651724851" duration="5387000" />
     </task>
     <servers />
   </component>
@@ -1062,11 +1038,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5135000" />
+    <option name="totallyTimeSpent" value="5387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1079,7 +1055,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1271,8 +1247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="146" column="21" lean-forward="false" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        <state relative-caret-position="-513">
+          <caret line="121" column="21" lean-forward="false" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1302,7 +1278,7 @@
     <entry file="file://$PROJECT_DIR$/registry/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1318,7 +1294,7 @@
     <entry file="file://$PROJECT_DIR$/registry/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>

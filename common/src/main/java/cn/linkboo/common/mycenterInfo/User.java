@@ -1,6 +1,6 @@
-package cn.linkbook.registry.po;
+package cn.linkboo.common.mycenterInfo;
 
-public class UserPO {
+public class User {
     private String email;
     private String name;
     private String passwd;
@@ -8,13 +8,15 @@ public class UserPO {
     private short gender;
     private String nickName;
     private int phone;
+    //微信号
     private String wechatNo;
+    //qq号
     private String qqNo;
-    private String school;
-    private String company;
-    //自我描述
-    private String description;
-    private String head;
+    private School school;
+    private Company company;
+    //区域
+    private String area;
+
 
     public String getEmail() {
         return email;
@@ -41,16 +43,16 @@ public class UserPO {
     }
 
     /**
-     * 0表示男，1表示女
-     * @return 性别对应数字
+     * the number indicates user's gender
+     * @return o : boy and 1 : girl
      */
     public short getGender() {
         return gender;
     }
 
     /**
-     * 设置性别对应数字
-     * @param gender 0表示男，1表示女
+     * setting the number which indicates user's gender
+     * @param gender o : boy and 1 : girl
      */
     public void setGender(short gender) {
         this.gender = gender;
@@ -88,27 +90,27 @@ public class UserPO {
         this.qqNo = qqNo;
     }
 
-    public String getSchool() {
+    public School getSchool() {
         return school;
     }
 
-    public void setSchool(String school) {
+    public void setSchool(School school) {
         this.school = school;
     }
 
-    public String getCompany() {
+    public Company getCompany() {
         return company;
     }
 
-    public void setCompany(String company) {
+    public void setCompany(Company company) {
         this.company = company;
     }
 
-    public String getDescription() {
-        return description;
+    public String getArea() {
+        return area;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setArea(String area) {
+        this.area = area;
     }
 }
