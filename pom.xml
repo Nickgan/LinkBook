@@ -10,9 +10,7 @@
         <module>common</module>
         <module>registry</module>
         <module>login</module>
-        <module>login-front</module>
     </modules>
-    <packaging>pom</packaging>
     <packaging>pom</packaging>
 
     <name>book</name>
@@ -112,10 +110,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 

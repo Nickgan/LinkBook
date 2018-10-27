@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="login" />
-        <module name="login-front" />
         <module name="registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="book" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="login" target="1.8" />
       <module name="login-front" target="1.8" />
       <module name="registry" target="1.8" />
