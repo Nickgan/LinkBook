@@ -1,0 +1,5 @@
+server:
+  port: 8089
+#ok请求
+okService:
+  url: http://localhost:8088/linkbook
