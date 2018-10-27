@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/to")
 public class PageController {
 
+    @GetMapping(value = {"/", "/reg"})
+    public String reg(){
+        return "reg";
+    }
+
     @GetMapping("/{html}")
     public String toPage(@PathVariable String html){
         return html;

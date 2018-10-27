@@ -6,7 +6,7 @@
     <groupId>cn.linkbook</groupId>
     <artifactId>registry</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>registry</name>
     <description>Demo project for Spring Boot</description>
@@ -33,6 +33,7 @@
             <scope>system</scope>
             <systemPath>c:/Users/WQ/.m2/repository/common-1.0-SNAPSHOT.jar</systemPath>
         </dependency>
+
         <!-- springBoot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -44,10 +45,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.projectlombok</groupId>-->
+            <!--<artifactId>lombok</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
