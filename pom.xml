@@ -6,7 +6,7 @@
     <groupId>cn.linkbook</groupId>
     <artifactId>book</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>book</name>
     <description>linkbook website</description>
@@ -17,6 +17,12 @@
         <version>2.0.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>registry</module>
+        <module>login</module>
+        <module>login-front</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,13 +37,16 @@
         <cn.linkbook.common>1.0-SNAPSHOT</cn.linkbook.common>
     </properties>
 
-    <dependencies>
 
+    <dependencies>
         <dependency>
             <groupId>cn.linkbook</groupId>
             <artifactId>common</artifactId>
             <version>${cn.linkbook.common}</version>
+            <scope>system</scope>
+            <systemPath>c:/Users/WQ/.m2/repository/common-1.0-SNAPSHOT.jar</systemPath>
         </dependency>
+
         <!-- spring boot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -106,10 +115,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
