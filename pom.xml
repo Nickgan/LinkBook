@@ -6,7 +6,10 @@
     <groupId>cn.linkbook</groupId>
     <artifactId>book</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>common</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>book</name>
     <description>linkbook website</description>
@@ -28,16 +31,15 @@
         <mybatis.version>3.2.8</mybatis.version>
         <druid.version>1.1.6</druid.version>
         <mysql-connector-java-version>5.1.44</mysql-connector-java-version>
-        <cn.linkbook.common>1.0-SNAPSHOT</cn.linkbook.common>
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>cn.linkbook</groupId>
             <artifactId>common</artifactId>
-            <version>${cn.linkbook.common}</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
+
         <!-- spring boot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
