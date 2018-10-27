@@ -1,0 +1,5 @@
+cn\linkbook\loginfront\login\Login.class
+cn\linkbook\loginfront\base\Result.class
+cn\linkbook\loginfront\config\BeansConfig.class
+cn\linkbook\loginfront\constants\ReturnCodeEnum.class
+cn\linkbook\loginfront\LoginFrontApplication.class

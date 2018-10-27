@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.bam.bestteam.free.dal.inter.TestInfoDao">
-	<resultMap  type="YearsInfoDO"  id="YearsInfoMap">
+<mapper namespace="cn.linkbook.registry.dal.inter.TestInfoDao">
+	<resultMap  type="TestInfoDO"  id="TestInfoMap">
 		<result property="id"           column="id"/>
 		<result property="extraInfo"    column="extra_info"/>
 		<result property="createTime"   column="create_time"/>
 	</resultMap>
 
-	<insert id="insert" parameterType="YearsInfoDO" useGeneratedKeys="true" keyProperty="id">
+	<insert id="insert" parameterType="TestInfoDO" useGeneratedKeys="true" keyProperty="id">
 		insert into years_info (`extra_info`) values (#{extraInfo});
 	</insert>
 </mapper>
