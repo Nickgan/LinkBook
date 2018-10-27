@@ -29,6 +29,9 @@
         <dependency>
             <groupId>cn.linkbook</groupId>
             <artifactId>common</artifactId>
+            <version>${cn.linkbook.common}</version>
+            <scope>system</scope>
+            <systemPath>c:/Users/WQ/.m2/repository/common-1.0-SNAPSHOT.jar</systemPath>
         </dependency>
         <!-- springBoot-->
         <dependency>
