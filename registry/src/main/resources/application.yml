@@ -1,5 +1,5 @@
 server:
-port: 8082
+port: 8090
 #ok请求
 okService:
 url: http://localhost:8082/ok
