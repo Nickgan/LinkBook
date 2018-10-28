@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Description
  */
 @Controller
-@RequestMapping("/to")
 public class PageController {
 
     @GetMapping(value = {"/", "/reg"})
@@ -19,7 +18,7 @@ public class PageController {
         return "reg";
     }
 
-    @GetMapping("/{html}")
+    @GetMapping("/to/{html}")
     public String toPage(@PathVariable String html){
         return html;
     }
