@@ -22,6 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <cn.linkbook.common>1.0</cn.linkbook.common>
     </properties>
 
     <dependencies>
@@ -29,6 +30,7 @@
         <dependency>
             <groupId>cn.linkbook</groupId>
             <artifactId>common</artifactId>
+            <version>${cn.linkbook.common}</version>
         </dependency>
         <!-- springBoot-->
         <dependency>

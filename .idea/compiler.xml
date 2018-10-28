@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="book" />
         <module name="login" />
-        <module name="login-front" />
         <module name="registry" />
       </profile>
     </annotationProcessing>
