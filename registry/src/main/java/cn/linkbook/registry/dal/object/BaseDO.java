@@ -10,11 +10,11 @@ import java.sql.Timestamp;
  * @DATE 2018/10/27 21:23.
  * @Description
  */
-public class BaseDO {
+public abstract class BaseDO {
 
-    private Integer id;
-    private String extraInfo;
-    private Timestamp createTime;
+    protected Integer id;
+    protected String extraInfo;
+    protected Timestamp createTime;
 
     public Integer getId() {
         return id;

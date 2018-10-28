@@ -22,15 +22,31 @@ public class EmailMessage {
     private String content;
 
     /** 邮件正文模板 **/
-    enum EmailMode{
-        account_activation("账号激活", "【LinkBook账号激活】 %s 您好, 感谢注册链书搜索，点击下面链接进行邮箱账号激活/n http://*********/%s, [10分钟内有效]"),
-        change_password("找回密码", "【LinkBook找回密码】 %s 您好, 点击下方链接重新设定密码/n http://*********/%s, [10分钟内有效]");
+    public enum EmailMode{
+        account_activation("LinkBook邮箱认证", " %s 您好，感谢注册链书搜索，这是一条账号认证测试邮件，暂时忽略, [10分钟内有效]"),
+        change_password("找回密码", "【LinkBook找回密码】 %s 您好, 点击链接重新设定密码 http://*********/%s, [10分钟内有效]");
 
         private String type;
         private String model;
 
         EmailMode(String type, String model){
             this.type = type;
+            this.model = model;
+        }
+
+        public String getType() {
+            return type;
+        }
+
+        public void setType(String type) {
+            this.type = type;
+        }
+
+        public String getModel() {
+            return model;
+        }
+
+        public void setModel(String model) {
             this.model = model;
         }
     }
@@ -88,6 +104,7 @@ public class EmailMessage {
     public void setContentModel(EmailMode msgModel) {
         String name = StringUtils.isEmpty(this.pickName) ? this.emailAddress : this.pickName;
         this.content = String.format(msgModel.model, name, this.emailAddress);
+        this.title = msgModel.getType();
     }
 
     @Override

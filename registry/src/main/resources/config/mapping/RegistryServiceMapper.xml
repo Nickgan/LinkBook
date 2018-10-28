@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.linkbook.registry.dal.inter.RegistryServiceDao">
+	<resultMap  type="UserInfoDO"  id="UserInfoMap">
+		<result property="id"           column="id"/>
+		<result property="uuid"         column="uuid"/>
+		<result property="pickName"     column="pick_name"/>
+		<result property="email"        column="email"/>
+		<result property="photo"        column="photo"/>
+		<result property="password"     column="password"/>
+		<result property="imobiled"     column="mobile"/>
+		<result property="weixin"       column="weixin"/>
+		<result property="qq"           column="qq"/>
+		<result property="state"        column="state"/>
+		<result property="extraInfo"    column="extra_info"/>
+		<result property="createTime"   column="create_time"/>
+	</resultMap>
+	
+	<sql id="allColumn">
+		uuid, pick_name, email, photo, password, mobile, weixin, qq, state, extra_info, create_time
+	</sql>
+	
+	<insert id="insert" parameterType="UserInfoDO" useGeneratedKeys="true" keyProperty="id">
+		insert into user_info_tab (`uuid`, `pick_name`, `email`, `photo`,`password`)
+		values
+		(#{uuid}, #{pickName}, #{email}, #{photo}, #{password});
+	</insert>
+
+	<select id="query" parameterType="String" resultType="UserInfoDO">
+		select * FROM user_info_tab where email = #{email} limit 1;
+	</select>
+</mapper>

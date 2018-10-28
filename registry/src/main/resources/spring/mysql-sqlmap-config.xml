@@ -11,6 +11,7 @@
 
     <typeAliases>
         <typeAlias alias="TestInfoDO" type="cn.linkbook.registry.dal.object.TestInfoDO"/>
+        <typeAlias alias="UserInfoDO" type="cn.linkbook.registry.dal.object.UserInfoDO"/>
     </typeAliases>
 
     <typeHandlers>

@@ -1,7 +1,6 @@
 package cn.linkbook.registry.biz.service.inter;
 
 import cn.linkbook.registry.biz.service.Object.EmailMessage;
-import cn.linkbook.registry.biz.service.exceptions.EmailSendException;
 
 /**
  * @author 王琦 <1124602935@qq.com>

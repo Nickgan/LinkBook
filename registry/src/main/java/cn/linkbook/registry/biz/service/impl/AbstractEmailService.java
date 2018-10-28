@@ -24,11 +24,12 @@ public abstract class AbstractEmailService {
 
     @PostConstruct
     public void init() {
-        LOGGER.error("init email server config ....");
+        LOGGER.error("================ init email server start ==============");
         javaMailSender.setHost(host);//指定用来发送Email的邮件服务器主机名
         javaMailSender.setPort(port);//默认端口，标准的SMTP端口
         javaMailSender.setUsername(userName);//用户名
         javaMailSender.setPassword(code);//密码
+        LOGGER.error("=============== init email server success =============");
     }
 
     public String getHost() {
